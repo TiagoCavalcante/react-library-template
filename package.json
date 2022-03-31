@@ -1,0 +1,44 @@
+{
+  "name": "react-library-template",
+  "version": "1.0.0",
+  "description": "A template for seamlessly creating a ReactJS library with TypeScript",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TiagoCavalcante/react-library-template"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "template"
+  ],
+  "author": "Tiago Cavalcante Trindade",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@types/react": "^17.0.43",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
+    "prettier": "^2.6.1",
+    "rollup": "^2.70.1",
+    "rollup-plugin-dts": "^4.2.0",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.3"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,md}": "prettier --write --no-semi"
+  },
+  "dependencies": {
+    "rollup-plugin-delete": "^2.0.0"
+  }
+}
