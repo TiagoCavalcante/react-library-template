@@ -11,7 +11,7 @@ Press the green button saying "Use this template".
 ## Quickstart
 
 1. `npm install`
-2. Customize the package.json file with the information about your project. Don't forget to change the license if you don't want MIT! Once a license is choosed it is hard to (legally) change it
+2. Customize the package.json file with the information about your project. Don't forget to change the license if you don't want MIT! Once a license is chosen it is hard to (legally) change it
 3. Replace the code from src/ with your code
-4. Add the files you want to delete after the build (if there are any) in rollup.config.js. Istead of deleting them you can just add to .gitignore
-5. Run `npm publish` and wait people to use your library
+4. Add the files you want to delete after the build (if there are any) in rollup.config.js. Instead of deleting them, you can just add them to .gitignore
+5. Run `npm publish` and wait for people to use your library
